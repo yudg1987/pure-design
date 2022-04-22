@@ -78,7 +78,7 @@ public class FileController {
             // 上传文件到磁盘
             file.transferTo(uploadFile);
             // 数据库若不存在重复文件，则不删除刚才上传的文件
-            url = "http://" + serverIp + ":9090/file/" + fileUUID;
+            url = "http://" + serverIp + ":9091/file/" + fileUUID;
         }
 
 
