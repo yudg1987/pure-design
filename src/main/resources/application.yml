@@ -1,6 +1,6 @@
 server:
   ip: localhost
-  port: 9090
+  port: 9091
 
 spring:
   datasource:

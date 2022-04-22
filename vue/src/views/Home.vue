@@ -4,7 +4,7 @@
       <b>欢迎你！{{ user.nickname }}</b>
     </div>
     <el-card>
-      青哥出手，马上拥有
+      刚哥出手，马上拥有
       <el-divider />
       虎虎生威，虎年大吉
     </el-card>
@@ -12,16 +12,16 @@
 
     <el-row :gutter="30">
       <el-col :span="12">
-        <div style="padding: 20px 0; font-size: 20px">小白做毕设专用框架</div>
+        <div style="padding: 20px 0; font-size: 20px">springboot+vue2专用框架</div>
         <div>
-          这是一款专门针对毕设系统设计的框架，代码简单，结构清晰，如果你是小白，一定不要错过哦
+          这是一款专门针对springboot+vue2系统设计的框架，代码简单，结构清晰，如果你是小白，一定不要错过哦
         </div>
         <div class="m-10"><el-button type="danger"><i class="el-icon-coin"></i> 免费开源</el-button></div>
-        <div class="m-10"><el-button type="primary"><i class="el-icon-s-custom"></i> 交流QQ群：529910361</el-button></div>
-        <div class="m-10">
+<!--        <div class="m-10"><el-button type="primary"><i class="el-icon-s-custom"></i> 交流QQ群：529910361</el-button></div>-->
+<!--        <div class="m-10">
           <el-button type="primary"><i class="el-icon-link"></i> <a style="color: #fff" href="https://gitee.com/xqnode/pure-design">Gitee源码</a></el-button>
           <el-button type="primary"><i class="el-icon-link"></i> <a style="color: #fff" href="https://www.bilibili.com/video/BV1U44y1W77D">B站视频讲解</a></el-button>
-        </div>
+        </div>-->
       </el-col>
       <el-col :span="12">
         <div style="padding: 20px 0; font-size: 20px">技术栈</div>
@@ -47,14 +47,15 @@
     </el-row>
 
     <el-row>
-      <el-col :span="6">
+      <el-col :span="60">
         <el-card>
           <div slot="header" class="clearfix">
-            <span>喝杯咖啡</span>
+            <span>打赏作者喝杯奶茶</span>
           </div>
           <div style="text-align: center">
-            <img src="https://img-blog.csdnimg.cn/9250639d4fc74eb385e5975f58bef0da.png" alt="">
-            <div class="pd-10">您可以请作者喝杯咖啡以资鼓励</div>
+<!--            <img src="https://img-blog.csdnimg.cn/9250639d4fc74eb385e5975f58bef0da.png" alt="">-->
+            <img src='../assets/zsm.jpg' />
+            <div class="pd-10">您可以请作者喝杯奶茶以资鼓励</div>
           </div>
         </el-card>
       </el-col>
